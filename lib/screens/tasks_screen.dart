@@ -29,7 +29,7 @@ class TaskScreen extends StatelessWidget {
             title: const Text('Tasks app'),
             actions: [
               IconButton(
-                onPressed: () {},
+                onPressed: () => _addTask(context),
                 icon: const Icon(Icons.add),
               ),
             ],
